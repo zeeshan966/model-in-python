@@ -2,6 +2,8 @@ from django.db import models
 
 # Create your models here.
 
+# It is blue print of the database table and it execute with migrations.
+
 class Invoice(models.Model):
     customer_name = models.CharField(max_length = 100)
     invoice_number = models.CharField(max_length = 50)
